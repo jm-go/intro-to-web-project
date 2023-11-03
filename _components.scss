@@ -1,0 +1,147 @@
+@use "./variables" as *;
+@use "./layout";
+
+.navigation {
+    height: 10vh;
+    background-color: $color-white;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #time {
+        color: $color-secondary;
+        font-size: 22px;
+        font-family: $font-display;
+        font-weight: 700;
+    }
+
+    #icons {
+        opacity: 65%;
+    }
+}
+
+.intro {
+    height: 10vh;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   .logo {
+    width: 250px;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    .button {
+        display: flex;
+        width: 150px;
+        height: 65px;
+        background-color: $color-white;
+        border-color: #28527a;
+        border-width: medium;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border-style: solid;
+        font-weight: 800;
+        font-size: 22px;
+        align-items: center;
+        justify-content: center;
+    } 
+}
+
+main {
+    align-items: center;
+    text-align: center;
+}
+
+.text1 {
+    font-family: $font-display;
+    color: $color-primary-light;
+    font-size: 40px;
+}
+
+.text2 {
+    font-family: $font-body;
+    color: $color-primary;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text3 {
+    font-family: $font-body;
+    color: $color-primary-light;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.text4 {
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+
+    .button2 {
+        display: flex;
+        width: 300px;
+        height: 65px;
+        background-color: $color-primary;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-weight: 800;
+        font-size: 22px;
+        color: $color-white;
+        align-items: center;
+        justify-content: center;
+        } 
+}
+
+.text5 {
+    font-family: $font-body;
+    color: $color-primary;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section {
+
+    div {
+        font-family: $font-body;
+        font-size: 25px;
+    }
+
+    .flex-container {
+        display: flex;
+        align-items: center;  /* Vertically aligns the content and the image to the center */
+        justify-content: center;
+        margin-bottom: 20px;  /* Adds space between each container. Adjust as needed */
+    }
+    
+    .flex-container img {
+        margin-left: 10px;  /* Adds some space between the text and the image. Adjust as needed */
+    }
+
+    nav {
+        width: 100%;
+        height: 100%;
+        padding: 30px 0;
+        background-color: $color-yellow;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    nav > div {
+        margin-bottom: 15px; /* Adjust the value as per your requirement */
+    }
+    
+    nav > div:last-child {
+        margin-bottom: 0; /* This removes the margin from the last div to avoid any extra space at the end */
+    }
+}

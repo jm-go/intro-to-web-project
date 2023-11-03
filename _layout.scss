@@ -1,0 +1,22 @@
+@use "./variables" as *;
+@use "./components";
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-primary;
+
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+body {
+    max-width: 750px;
+    margin: 0 auto;
+    overflow-x: hidden; /* To prevent horizontal scrolling */
+}
+

@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto:wght@300&display=swap");
+.navigation {
+  height: 10vh;
+  background-color: #fafafa;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation #time {
+  color: rgba(73, 68, 68, 0.847);
+  font-size: 22px;
+  font-family: "Playpen Sans";
+  font-weight: 700;
+}
+.navigation #icons {
+  opacity: 65%;
+}
+
+.intro {
+  height: 10vh;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro .logo {
+  width: 250px;
+  margin: 0px;
+  padding: 0px;
+}
+.intro .button {
+  display: flex;
+  width: 150px;
+  height: 65px;
+  background-color: #fafafa;
+  border-color: #28527a;
+  border-width: medium;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-style: solid;
+  font-weight: 800;
+  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  align-items: center;
+  text-align: center;
+}
+
+.text1 {
+  font-family: "Playpen Sans";
+  color: rgb(94, 191, 236);
+  font-size: 40px;
+}
+
+.text2 {
+  font-family: "Roboto", "sans-serif";
+  color: #28497a;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.text3 {
+  font-family: "Roboto", "sans-serif";
+  color: rgb(94, 191, 236);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.text4 {
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.container .button2 {
+  display: flex;
+  width: 300px;
+  height: 65px;
+  background-color: #28497a;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 22px;
+  color: #fafafa;
+  align-items: center;
+  justify-content: center;
+}
+
+.text5 {
+  font-family: "Roboto", "sans-serif";
+  color: #28497a;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+section div {
+  font-family: "Roboto", "sans-serif";
+  font-size: 25px;
+}
+section .flex-container {
+  display: flex;
+  align-items: center; /* Vertically aligns the content and the image to the center */
+  justify-content: center;
+  margin-bottom: 20px; /* Adds space between each container. Adjust as needed */
+}
+section .flex-container img {
+  margin-left: 10px; /* Adds some space between the text and the image. Adjust as needed */
+}
+section nav {
+  width: 100%;
+  height: 100%;
+  padding: 30px 0;
+  background-color: rgb(251, 251, 209);
+  font-weight: bold;
+  font-size: 25px;
+}
+section nav > div {
+  margin-bottom: 15px; /* Adjust the value as per your requirement */
+}
+section nav > div:last-child {
+  margin-bottom: 0; /* This removes the margin from the last div to avoid any extra space at the end */
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+  color: #28497a;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+body {
+  max-width: 750px;
+  margin: 0 auto;
+  overflow-x: hidden; /* To prevent horizontal scrolling */
+}
+
+@media screen and (max-width: 768px) {
+  .navigation, .intro {
+    padding: 0 20px;
+  }
+  .logo {
+    width: 200px;
+  }
+  .button, .button2 {
+    width: 130px;
+    font-size: 18px;
+  }
+  .text1, .text2 {
+    font-size: 35px;
+  }
+  .text3 {
+    font-size: 30px;
+  }
+  .text4 {
+    font-size: 20px;
+  }
+  .text5 {
+    font-size: 28px;
+  }
+  section div {
+    font-size: 22px;
+  }
+}/*# sourceMappingURL=main.css.map */

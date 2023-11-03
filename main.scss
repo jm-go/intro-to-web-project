@@ -1,0 +1,42 @@
+@use "./variables" as *;
+@use "./components";
+@use "./layout";
+
+@media sceen and (min-width: 166px) {
+    
+}
+@media screen and (max-width: 768px) {
+
+    .navigation, .intro {
+        padding: 0 20px; // Adjust navigation and intro padding
+    }
+
+    .logo {
+        width: 200px; // Resize the logo for mobile screens
+    }
+
+    .button, .button2 {
+        width: 130px; // Adjust button width for better fit
+        font-size: 18px; // Reduce font size for buttons
+    }
+
+    .text1, .text2 {
+        font-size: 35px; // Adjust primary text size
+    }
+
+    .text3 {
+        font-size: 30px; // Adjust secondary text size
+    }
+
+    .text4 {
+        font-size: 20px; // Adjust tertiary text size
+    }
+
+    .text5 {
+        font-size: 28px; // Adjust quaternary text size
+    }
+
+    section div {
+        font-size: 22px; // Adjust font size within sections
+    }
+}
