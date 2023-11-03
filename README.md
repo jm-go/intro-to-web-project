@@ -1,0 +1,1 @@
+This project has been created as a final project for "02 - Precourse - Web Fundamentals" unit.
