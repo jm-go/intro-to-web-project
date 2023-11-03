@@ -1,6 +1,9 @@
 @use "./variables" as *;
 @use "./layout";
 
+
+/*  This file contains the styles for individual components. For example, it styles buttons and 
+    text content in particular sections. */
 .navigation {
     height: 10vh;
     background-color: $color-white;
